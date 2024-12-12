@@ -1,0 +1,12 @@
+package com.github.ussexperimental.takeoutsystem.dto;
+
+import com.github.ussexperimental.takeoutsystem.entity.enums.RoleType;
+import lombok.Data;
+
+@Data
+public class UserUpdateDTO {
+    private String phone;
+    private String email;
+    private String address;
+    private RoleType roleType;
+}
